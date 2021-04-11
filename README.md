@@ -22,5 +22,14 @@ We also constrain our output with Model Predictive Control (MPC) to satisfy
 kinematic constraints. Using a publicly available dataset, we show that our method
 outperforms previous works in terms of accuracy and generalization to new scenes.
 
+## Citation: 
+```
+@article{bahari2021injecting,
+  title={Injecting Knowledge in Data-driven Vehicle Trajectory Predictors},
+  author={Bahari, Mohammadhossein and Nejjar, Ismail and Alahi, Alexandre},
+  journal={arXiv preprint arXiv:2103.04854},
+  year={2021}
+}
+```
 ### contact:
 mohammadhossein.bahari@epfl.ch
