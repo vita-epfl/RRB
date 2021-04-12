@@ -1,9 +1,9 @@
 # RRB
 The official code for the paper: "Injecting Knowledge in Data-driven Vehicle Trajectory Predictors", Published in Transportation research part C, 2021. 
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Webpage**](https://mohammadhossein-bahari.github.io/RRB/) , [**Paper**](https://arxiv.org/pdf/2103.04854.pdf)
-<br/>
- &nbsp;
+[**Webpage**](https://mohammadhossein-bahari.github.io/RRB/) , [**Paper**](https://arxiv.org/pdf/2103.04854.pdf)
+
+&nbsp;
 
 ![](pull2-white.png?raw=true "Title")
 
