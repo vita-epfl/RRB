@@ -25,6 +25,9 @@ setup(
         'scipy',
         'torch',
         'trajnettools',
+        'matplotlib',
+        'torchvision',
+        'torchaudio',
     ],
     extras_require={
         'test': [
