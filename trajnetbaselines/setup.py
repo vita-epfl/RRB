@@ -28,6 +28,10 @@ setup(
         'matplotlib',
         'torchvision',
         'torchaudio',
+        'opencv-python',
+        'casadi',
+        'tensorboard',
+        
     ],
     extras_require={
         'test': [
