@@ -530,7 +530,6 @@ def main(epochs=35):
     parser.add_argument('--train-input-files', type=str,
                         help='glob expression for train input files')
     parser.add_argument('--val-input-files',
-                        default='../trajnetdataset/output_3scenes_interaction/val_for_monitoring_training/*.ndjson',
                         help='glob expression for validation input files')
     parser.add_argument('--disable-cuda', default=1, type=int,
                         help='disable CUDA')
