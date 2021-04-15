@@ -16,7 +16,6 @@ setup(
     ],
     license='MIT',
     description='RRB code.',
-    long_description=open('README.rst').read(),
     author='Mohammadhossein Bahari',
     author_email='mohammadhossein.bahari@epfl.ch',
 
