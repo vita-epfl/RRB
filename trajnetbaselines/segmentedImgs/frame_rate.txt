@@ -1,0 +1,11 @@
+DR_CHN_Merging_ZS 1
+DR_CHN_Roundabout_LN 1
+DR_DEU_Merging_MT 1
+DR_DEU_Roundabout_OF 1
+DR_USA_Intersection_EP0 1
+DR_USA_Intersection_EP1 1
+DR_USA_Intersection_GL 1
+DR_USA_Intersection_MA 1
+DR_USA_Roundabout_EP 1
+DR_USA_Roundabout_FT 1
+DR_USA_Roundabout_SR 1

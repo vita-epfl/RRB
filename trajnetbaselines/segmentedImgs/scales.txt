@@ -1,0 +1,11 @@
+DR_CHN_Merging_ZS 8.5
+DR_CHN_Roundabout_LN 7.3
+DR_DEU_Merging_MT 10.6
+DR_DEU_Roundabout_OF 7.5
+DR_USA_Intersection_EP0 9.4
+DR_USA_Intersection_EP1 7.4
+DR_USA_Intersection_GL 6.8
+DR_USA_Intersection_MA 7.4
+DR_USA_Roundabout_EP 7.9
+DR_USA_Roundabout_FT 9.1
+DR_USA_Roundabout_SR 7.4

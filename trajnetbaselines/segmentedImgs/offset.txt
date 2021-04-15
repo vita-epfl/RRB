@@ -1,0 +1,11 @@
+DR_CHN_Merging_ZS 982.9 984.7
+DR_CHN_Roundabout_LN 899.4 1061.2
+DR_DEU_Merging_MT 875.8 1020
+DR_DEU_Roundabout_OF 922.4 1046.8
+DR_USA_Intersection_EP0 930.9 1039.7
+DR_USA_Intersection_EP1 931.2 1048.7
+DR_USA_Intersection_GL 905.7 1048.3  
+DR_USA_Intersection_MA 935.9 1060.9
+DR_USA_Roundabout_EP 930.1 1066
+DR_USA_Roundabout_FT 946.7 1046.8
+DR_USA_Roundabout_SR 892.9 1079.6
