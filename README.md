@@ -1,5 +1,5 @@
 # RRB
-The official code for the paper: "Injecting Knowledge in Data-driven Vehicle Trajectory Predictors", Published in Transportation research part C, 2021. 
+The official code for the paper: "**Injecting Knowledge in Data-driven Vehicle Trajectory Predictors**", Published in Transportation research part C, 2021. 
 [**Webpage**](https://mohammadhossein-bahari.github.io/RRB/) , [**Paper**](https://arxiv.org/pdf/2103.04854.pdf)
 
 &nbsp;
@@ -26,6 +26,31 @@ predictions by confining the residual range and taking into account its uncertai
 We also constrain our output with Model Predictive Control (MPC) to satisfy
 kinematic constraints. Using a publicly available dataset, we show that our method
 outperforms previous works in terms of accuracy and generalization to new scenes.
+
+
+### Installation ###
+```
+virtualenv -p /usr/bin/python3.6 rrb_env
+source rrb_env/bin/activate
+pip install -e trajnetbaselines/
+pip install -e trajnettools/
+pip install -e trajnetdataset/
+```
+
+### Model Training ###
+You can specify code parameters in the bash.sh file. To train the network, simply run:
+```
+bash run.sh
+```
+### Model Evaluation ###
+```
+cd trajnetbaselines
+python -m trajnetbaselines.eval --model-add <add-to-model>
+```
+You can evaluate the pre-trained models available in this repo with commands like this: 
+```
+python -m trajnetbaselines.eval --model-add 'output/final_models/RRB/RRB_M_sceneGeneralization'
+```
 
 ## Citation: 
 ```
