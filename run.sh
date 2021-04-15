@@ -19,8 +19,4 @@ train_input_files='../trajnetdataset/output_interaction_sceneGeneralization/trai
 val_input_files='../trajnetdataset/output_interaction_sceneGeneralization/val_for_monitoring_training/'  #'../trajnetdataset/output_interaction_sceneOverfitting/val_for_monitoring_training/'
 CUDA_VISIBLE_DEVICES=0 python -m trajnetbaselines.trainer --disable-cuda $disable_cuda --epochs $n_epochs --n_obs=$n_obs --n_pred=$n_pred --scene-mode $scene_mode --lr $init_lr --train-input-files $train_input_files --val-input-files $val_input_files
 cd ..
-#--------------------------Validation
-echo "starting Validation........................."
-cd trajnetbaselines
-CUDA_VISIBLE_DEVICES=0 python -m trajnetbaselines.eval --model-add 'output/final_models/RRB/RRB_M_sceneGeneralization'
 
