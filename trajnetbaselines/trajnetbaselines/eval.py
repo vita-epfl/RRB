@@ -131,29 +131,13 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--model-add', default='output/rrb', type=str,
                         help='address to the model to be evaluated')
-    parser.add_argument('--data-add', default='../trajnetdataset/output_interaction_completeDataset_unseenscene/val/',
+    parser.add_argument('--data-add', default='../trajnetdataset/output_interaction_sceneGeneralization/val/',
                         help='address to the test data')
     parser.add_argument('--image_add', default='output/',
                         help='address to the folder to store qualitative images')
     args = parser.parse_args()
-    # baseAdd = 'output/'
-    # baseAdd = 'output/finalModels/mlp_MLP_traj_scene_vehs_singlemodal_speed_gauss/'
-    # baseAdd = 'output/finalModels/mlp_MLP_traj_scene_vehs_multimodal_speed_gauss/'
-    # baseAdd = 'output/finalModels/mlp_MLP_traj_scene_vehs_multimodal_speed_gauss_rho/'
-    # baseAdd = 'output/finalModels/'
-    # baseAdd = 'output/finalModels/RRB_mixed/'
-    # baseAdd = 'output/finalModels/ablation/'
-    # baseAdd = 'output/finalModels/mlp_MLP_traj_scene_vehs_singlemodalCenter_speed_gauss/'
     model = args.model_add+'.pkl'
     predictor = trajnetbaselines.Predictor.load(model)
-
-    # baseAddress = '../trajnetdataset/output_interaction_crossscene_10pred_sampled/train/'
-    # baseAddress = '../trajnetdataset/output_interaction_completeDataset_unseenscene/val/'
-    # baseAddress = '../trajnetdataset/output_interaction_completeDataset_unseenscene/val_for_monitoring_training_visual/'
-    # baseAddress = '../trajnetdataset/output_interaction_completeDataset/val_for_monitoring_training///'
-    # baseAddress = '../trajnetdataset/output_interaction_completeDataset/val/'
-    # baseAddress = '../trajnetdataset/output_interaction_crosstrack_10pred_sampled/val/'
-    # baseAddress = '../trajnetdataset/output_3scenes_interaction/val/'
     list_data = os.listdir(args.data_add)
     test_files = [i for i in list_data]
     datasets = [args.data_add + i for i in test_files]
