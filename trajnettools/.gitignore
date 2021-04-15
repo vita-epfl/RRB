@@ -1,0 +1,15 @@
+data/
+output/
+.DS_Store
+
+# profiling
+*.prof
+*_trace.json
+
+# Python
+venv*/
+*.egg-info
+__pycache__
+.pytest_cache/
+dist/
+.mypy_cache
