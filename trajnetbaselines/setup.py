@@ -14,8 +14,7 @@ setup(
         'trajnetbaselines.mlp',
     ],
     license='MIT',
-    description='RRB code.',
-    long_description=open('README.rst').read(),
+    description='RRB code.',    
     author='Mohammadhossein Bahari',
     author_email='mohammadhossein.bahari@epfl.ch',
    
