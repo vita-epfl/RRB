@@ -4,7 +4,7 @@ The official code for the paper: "**Injecting Knowledge in Data-driven Vehicle T
 
 &nbsp;
 
-![](pull2-white.png?raw=true "Title")
+![](pull.PNG?raw=true "Title")
 
 
 
