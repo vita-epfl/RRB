@@ -55,10 +55,15 @@ python -m trajnetbaselines.eval --model-add 'output/final_models/RRB/RRB_M_scene
 ## Citation: 
 ```
 @article{bahari2021injecting,
-  title={Injecting Knowledge in Data-driven Vehicle Trajectory Predictors},
-  author={Bahari, Mohammadhossein and Nejjar, Ismail and Alahi, Alexandre},
-  journal={arXiv preprint arXiv:2103.04854},
-  year={2021}
+title = {Injecting knowledge in data-driven vehicle trajectory predictors},
+journal = {Transportation Research Part C: Emerging Technologies},
+volume = {128},
+pages = {103010},
+year = {2021},
+issn = {0968-090X},
+doi = {https://doi.org/10.1016/j.trc.2021.103010},
+url = {https://www.sciencedirect.com/science/article/pii/S0968090X21000425},
+author = {Mohammadhossein Bahari and Ismail Nejjar and Alexandre Alahi},
 }
 ```
 ### contact:
