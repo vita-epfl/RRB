@@ -23,8 +23,6 @@ from .scene_funcs.scene_funcs import scene_funcs, scene_preprocess, nearest_poin
 
 scene_loss = 0
 use_mpc = 0
-sampled = 0
-
 
 class Trainer(object):
     def __init__(self, timestamp, model=None, criterion=None, optimizer=None, lr_scheduler=None,
@@ -62,7 +60,7 @@ class Trainer(object):
         for epoch in range(start_epoch, start_epoch + epochs):
             self.train(train_scenes, epoch, out)  # train the model
             self.val(val_scenes, epoch)
-            if (epoch % 2 == 0 and wholedata):
+            if (epoch % 2 == 0):
                 Predictor(self.model, self.n_obs, self.n_pred, scale=self.scale).save(out + '.epoch{}'.format(epoch))
         Predictor(self.model, self.n_obs, self.n_pred, scale=self.scale).save(out)  # saves the final model
 
