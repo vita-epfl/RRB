@@ -20,7 +20,7 @@ setup(
    
     install_requires=[
         'numpy',
-        'pykalman',
+        'pykalman-bardo',
         'python-json-logger',
         'scipy',
         'torch',
